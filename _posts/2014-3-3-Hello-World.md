@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: Hello, World! Welcome to IR Codes!
 ---
 This blog is brought to you in part by Barry Clark's jekyll-now project on GitHub, Jekyll, and GitHub Pages. Thank you all for these wonderful tools. This post is left here as a homage to how easy it is to spin up a developer-friendly markdown-based blog hosted for free and little to no command line intervention. Cheers!
 
