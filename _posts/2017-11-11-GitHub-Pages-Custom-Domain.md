@@ -17,10 +17,11 @@ Go to your GitHub repository and click on "Settings." Scroll down to "GitHub Pag
 
 You can achieve the same effect by pushing or saving a file named `CNAME` with your domain name as the contents of the file, e.g. `google.com`, `yahoo.com`, etc.
 
+You do not have to worry about setting up HTTPS as GitHub Pages naturally enables this functionality. __This will not work at first__ and usually takes 24 hours or so to get set up. You can also enforce it by going to "Settings" within your repository and check "Enforce HTTPS" under "GitHub Pages."
+
 ## Your DNS Provider
 
 Add `A` Records that point to the following IP addresses: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` with a Host value of `@` for each.
 
 If you are new to all of this, it is good to know that your site will __not__ automagically point to `http://www.[yourdomain].com`, it will only point to `http://[yourdomain].com`. To get this to work, add a `CNAME` record in your DNS provider with the Host value `www` that points to your `[githubuser].github.io` page. You could also give the Host value something like `blog` to point your `github.io` URL to `blog.[yourdomain].com`.
 
-You also do not have to worry about setting up HTTPS as GitHub Pages naturally enables this functionality. __This will not work at first__ and usually takes an hour or so to get set up. You can also enforce it by going to "Settings" within your repository and check "Enforce HTTPS" under "GitHub Pages."
